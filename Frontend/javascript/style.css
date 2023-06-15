@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f2e8d5;
+  font-family: "Open Sans Hebrew", serif;
+}
+
+.main {
+  width: 80%;
+  background: white;
+  /* height: 80vh; */
+  position: relative;
+  /* top: 50%; */
+  /* left: 50%; */
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 4vh;
+  box-shadow: 0 0 5px #e2e2e2;
+  margin-top: 5vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+  margin-left: 2vh;
+}
+
+a:hover {
+  color: #e5582c;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5vh;
+}
+
+.sub {
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1vh;
+}
+
+section {
+  margin-top: 5vh;
+}
+
+h1 {
+  color: #e5582c;
+  margin: unset;
+}
+
+h3 {
+  margin: unset;
+}
+
+.worldmap {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  width: 400px;
+  border: 1px solid #e2e2e2;
+}
+
+.active {
+  border: 2px solid #e5582c;
+  border-radius: 10px;
+  padding: 0.5vh;
+}
+
+iframe {
+  width: 100%;
+  height: 60%;
+  border: unset;
+}
+
+.page {
+  background: white !important;
+}
+
+input,
+textarea {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-width: calc(var(--border-width) * 1px);
+  border-style: solid;
+  border-color: var(--accent);
+  border-radius: calc(var(--border-radius) * 1px);
+  text-align: center;
+  outline: transparent;
+  width: 100%;
+  transition: border-color calc(var(--transition, 0.2) * 1s) ease;
+  margin-bottom: 2vh;
+}
+
+.forms {
+  width: 40%;
+}
+
+button {
+  background: #ff4742;
+  margin-top: 2vh;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
