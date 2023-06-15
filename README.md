@@ -1,5 +1,7 @@
 # Full-Stack App 
 
+This full-stack app is a website that showcases a collection of sites in the world. Users can view, add, and manage sites through a RESTful API built with Node.js, Express.js, and MongoDB. The front-end uses HTML, CSS, and JavaScript with EJS templates and jQuery for interactivity.
+
 ## Back-End
 
 The back-end of the application provides API routes to perform CRUD operations on a collection of sites stored in a MongoDB database. 
@@ -9,19 +11,19 @@ It uses Mongoose as the MongoDB object modeling tool.
 
 #### The back-end defines the following API routes:
 
-##### Get all sites
+#### Get all sites
 
 Route: GET /sites/
 Description: Retrieves all sites from the database.
 Response: Returns a JSON array containing all the sites.
 
-##### Get a single site
+#### Get a single site
 
 Route: GET /sites/:id
 Description: Retrieves a specific site based on the provided site ID.
 Response: Returns a JSON object representing the site.
 
-##### Create a new site
+#### Create a new site
 
 Route: POST /sites/
 Description: Creates a new site in the database.
@@ -31,7 +33,7 @@ siteDescription (required): A description of the site.
 imageUrl (required): The URL of the site's image.
 Response: Returns a JSON object representing the newly created site.
 
-##### Update a site
+#### Update a site
 
 Route: PATCH /sites/:id
 Description: Updates a specific site based on the provided site ID.
@@ -40,7 +42,7 @@ name: The new name of the site.
 siteDescription: The new description of the site.
 Response: Returns a JSON object representing the updated site.
 
-##### Delete a site
+#### Delete a site
 
 Route: DELETE /sites/:id
 Description: Deletes a specific site based on the provided site ID.
@@ -57,8 +59,7 @@ Output: Sets the retrieved site as a property on the response object (res.site).
 
 ## Front-End
 
-The front-end of the application is built using EJS templates for rendering dynamic web pages. It includes a layout file (layots/layout.ejs) and uses Express.js and the express-ejs-layouts package for template rendering.
-
+The front-end of the application is built using EJS templates for rendering dynamic web pages. 
 
 ### Prerequisites
 
